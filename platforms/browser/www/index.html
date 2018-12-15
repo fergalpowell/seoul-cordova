@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seoul Attractions</title>
+
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="downloads/leaflet-1.3.4/leaflet.css"/>
+    <link rel="stylesheet" href="downloads/leaflet-marker-cluster/MarkerCluster.css"/>
+    <link rel="stylesheet" href="downloads/bootstrap-4.0.0/bootstrap.css"/>
+    <link rel="stylesheet" href="downloads/font-awesome-5.6.1/fontawesome.css"/>
+
+    <script src="downloads/jquery-3.3.1.js"></script>
+    <script src="downloads/leaflet-1.3.4/leaflet.js"></script>
+    <script src="downloads/bootstrap-4.0.0/bootstrap.js"></script>
+    <script src="downloads/leaflet-marker-cluster/MarkerCluster.js"></script>
+    <script src="downloads/font-awesome-5.6.1/fontawesome.js"></script>
+    <script src="downloads/papaparse.js"></script>
+
+</head>
+<body>
+    <div id="nav" class="navbar bg-dark">
+        <span style="font-size:30px;cursor:pointer;color: #f1f1f1; padding-left: 10px;" onclick="openNav()">&#9776; Seoul Attractions</span>
+        <div id="icon-container"><img src="img/seoul-white.png" alt="seoul"/></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="list-group" id="attractions">
+        </ul>
+        <div id="self-publication">
+                <p>Developed with love by:</p>
+                <a href="https://www.linkedin.com/in/fergalpowell" target="_blank">
+                    Fergal J. Powell
+                </a>
+                <p>2018</p>
+        </div>
+    </div>
+    <div id="dashboard">
+        <h1>Seoul Attractions!</h1>
+
+    </div>
+    <div id="map"></div>
+    <script src="js/index.js"></script>
+</body>
+</html>
